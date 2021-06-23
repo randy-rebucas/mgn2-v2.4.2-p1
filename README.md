@@ -5,11 +5,11 @@ Create DB
 
 **C:\xampp\apache\conf\extra**
 
-    `<VirtualHost *:80>
+    <VirtualHost *:80>
         AllowEncodedSlashes NoDecode
         DocumentRoot "C:/xampp/htdocs/mgn2/pub"
         ServerName mgn2.com
-    </VirtualHost>`
+    </VirtualHost>
 
 ---
 
