@@ -45,7 +45,10 @@ vendor\magento\framework\Image\Adapter\Gd2.php
 vendor\magento\framework\View\Element\Template\File\Validator.php
 
     $realPath = str_replace('\\', '/', $this->fileDriver->getRealPath($path));
+
+vendor\magento\framework\Interception\PluginListGenerator.php
     
+    $cacheId = implode('-', $this->scopePriorityScheme) . "-" . $this->cacheId;
 ---
 
 **Magento Setup install**
