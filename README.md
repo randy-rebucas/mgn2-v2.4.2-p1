@@ -1,4 +1,4 @@
-# Steps to install magento2 ver-2.4.2-p1
+# Steps to install magento2
 
 Setup php cinfugurations and extentions
 Create DB
